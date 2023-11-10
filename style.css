@@ -1,0 +1,60 @@
+body{
+    margin: 0px;/* elimina los márgenes predeterminados */
+    padding: 0px;/* elimina el Padding predeterminado*/
+    background-image: url(Images/mountain.jpg); /* establecer imagen de fondo de montaña */
+    background-attachment: fixed; /* arreglamos la imagen de fondo para que se vea todo */
+    background-repeat: no-repeat; /* hacer que no se repetie la imagen de fondo */
+    background-size:100% 100%;/*cubrir toda la ventana con la imagen de fondo*/
+}
+.header{
+    background-color:#2A4C58; /* Color de fondo para el clase header */
+    position: fixed; /* Posicionar el clase header para que se quede */
+    height: 75px;/* poner una altura alclase */
+    width: 100%; /* poner una anchura al clase header*/
+    margin-top: 0px; /*quitar los espacio entre el elemento de arriba*/
+    text-align: center; /* Alinear texto al centro */
+    color: white; /* cambiar el color de texto*/
+}
+
+.nav{
+    background-color:  #588791; /* Ponemos un color de fondo para el nav*/
+    position: sticky; /* hacemos que sea sticky el nav */
+    width: 100%; /* ponemos que la anchura cubre todo la pantalla*/
+    margin-top: 75px; /* Separamos el nav del elemento de arriba*/
+    display: inline-block; /* Sera para que se ponga en linia*/
+}
+.nav ul{
+    text-align: center; /* los textos que sean al centro */
+}
+.nav li{
+    display: inline-block;
+    list-style: none; /* es para que no nos ponga el punto en la lista*/
+}
+    
+.nav li a{
+    font-size: 18px; /* tamaño de font*/
+    text-transform: uppercase; /* convertir las letras a MAYUSCULAS*/
+    padding:0px 30px;
+    color: white; /* cambiamos el color de texto*/
+    text-decoration: none; /* elimina el subrayado */
+}
+
+
+#main{
+    margin: 20px; /* Definir elemento principal con margen de 20px */
+}
+
+section{
+    /* Aplicar color de fondo claro */
+    background-color: #AECFCE;
+    padding: 15px; /*Agregue un relleno de 15 píxeles alrededor de la sección*/
+    margin-top: 20px; /* Añadir un margen de 20px en la parte superior de la sección */
+    color: white; /* color de texto*/
+}
+footer{
+    background-color: #1B3037;/* poner color de fondo*/
+    color: aliceblue; /* ponemos el colo de texto*/
+    margin-bottom: 0px; /* Eliminar el espacio de abajo*/
+    padding: 10px; /* poner espacio al footer */
+    text-align: center; /* centrar los textos*/
+}
